@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+	<link rel="stylesheet" type="text/css" href="canvas360/css/canvas360.css" />
+	<script src="canvas360/lib/canvas360.js"></script>
+	
+    </head>
+    <body>
+	<div id="360view">Your browser does not support canvas elements.</div>
+	<script>
+	    canvas360({
+		canvasID: '360view',
+		canvasWidth: 800,
+		canvasPerspective: '800:762',
+		framesFile: 'shoe-800-{col}.jpg',
+		loaderFillGradient: false
+	    });
+	</script>
+    </body>
+</html>
